@@ -1,11 +1,11 @@
-1) Créez une base de données sample nommée "sample*_db" et une collection appelée "employees".* 
+1.  *Créez une base de données sample nommée "sample_db" et une collection appelée "employees".* 
 
    ```
    use sampble_db
    db.createCollection("employees", {"collation": {"locale": "fr"}})
    ```
 
-2) Insérez les documents suivants dans la collection "employees": {   name: "John Doe",   age: 35,   job: "Manager",   salary: 80000 } {   name: "Jane Doe",   age: 32,   job: "Developer",   salary: 75000 } {   name: "Jim Smith",   age: 40,   job: "Manager",   salary: 85000 }.
+2. *Insérez les documents suivants dans la collection "employees": {   name: "John Doe",   age: 35,   job: "Manager",   salary: 80000 } {   name: "Jane Doe",   age: 32,   job: "Developer",   salary: 75000 } {   name: "Jim Smith",   age: 40,   job: "Manager",   salary: 85000 }.*
 
    ```
    db.employees.insertMany([
